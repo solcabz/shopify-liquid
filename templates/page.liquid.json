@@ -10,15 +10,63 @@
     "b940e694-3122-4859-98c4-e7a937c29eea": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<div id=\"enap-slider-27908\"><\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "8c3fe295-0796-400a-ab89-8dcccf26506c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21725274145050__8c3fe295-0796-400a-ab89-8dcccf26506c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--21725274145050__8c3fe295-0796-400a-ab89-8dcccf26506c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--21725274145050__8c3fe295-0796-400a-ab89-8dcccf26506c-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21725274145050__8c3fe295-0796-400a-ab89-8dcccf26506c-heading-1",
+        "template--21725274145050__8c3fe295-0796-400a-ab89-8dcccf26506c-text-1",
+        "template--21725274145050__8c3fe295-0796-400a-ab89-8dcccf26506c-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Soap-Image5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "b940e694-3122-4859-98c4-e7a937c29eea"
+    "b940e694-3122-4859-98c4-e7a937c29eea",
+    "8c3fe295-0796-400a-ab89-8dcccf26506c"
   ]
 }
